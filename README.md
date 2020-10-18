@@ -1,5 +1,5 @@
 ### How to Deploy your Streamlit App using Streamlit Sharing
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jcharis/streamlit_trend_app/yourApp/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jcharis/streamlit-trend-app/app.py/)
 
 ### Steps
 ![](streamlit_sharing_jcharistech.png)

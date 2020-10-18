@@ -29,7 +29,7 @@ Alongside HTML and CSS, JavaScript is one of the core technologies of the World 
 
 html_temp = """
 		<div style="background-color:{};padding:10px;border-radius:10px">
-		<h1 style="color:{};text-align:center;">Programming Languages Trend App </h1>
+		<h1 style="color:{};text-align:center;">Programming Languages Trend Streamlit App </h1>
 		</div>
 		"""
 
