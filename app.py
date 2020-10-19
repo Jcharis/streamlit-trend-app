@@ -105,6 +105,24 @@ def main():
 		fig = px.line(ts,x=ts.index,y=lang_choices)
 		st.plotly_chart(fig,use_container_width=True)
 
+	else:
+		st.success("About")
+
+		raw_text_file = st.file_uploader('Your Text File',type=['txt'])
+		
+		if raw_text_file is not None:
+			mytext = raw_text_file.read()
+			st.write(mytext)
+
+
+		with st.beta_expander("Image Upload"):
+			img_file = st.file_uploader('Your Image File',type=['png','jpeg','jpg'])
+			if img_file is not None:
+				im = Image.open(img_file)
+				st.image(im)
+
+
+
 
 if __name__ == '__main__':
 	main()
